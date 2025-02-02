@@ -1,0 +1,22 @@
+###test
+POST http://127.0.0.1:8081/todo/add
+Content-Type: application/json
+
+{
+  "title": "빨래하기",
+  "description": "주말에 빨래 끝내기"
+}
+###
+POST http://127.0.0.1:8081/todo/add
+Content-Type: application/json
+
+{
+"title": "일기쓰기",
+"description": "하루에 한번씩 일기쓰기"
+}
+
+###
+GET http://127.0.0.1:8081/todo/1
+
+###
+GET http://127.0.0.1:8081/todo
